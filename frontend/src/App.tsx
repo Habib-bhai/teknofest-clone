@@ -4,6 +4,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Competitions from "./pages/Competitions"
 import CompetitionDetails from "./pages/CompetitionDetails"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Route path="/competitions:competitionDetails" element={<CompetitionDetails/>} />
      </Routes>
 
+     <Footer/> 
     </>
   )
 }
