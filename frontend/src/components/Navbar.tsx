@@ -1,6 +1,5 @@
-import React from 'react';
+
 import teknofest_logo from '../../public/teknofest-logo.png';
-import background_image from '../../public/bg.jpg';
 import cart_icon from '../../public/cart-iconnnn-removebg-preview.png';
 
 const Navbar = () => {
@@ -8,7 +7,6 @@ const Navbar = () => {
         <>
             <div className='flex items-center justify-center bg-green-700 font-mono text-white p-1'>50% DISCOUNT FOR NEXT 24 HOURS!! HURRY UP!</div>
 
-            <div className="relative"><img src={background_image} alt='bg-img' className='w-full h-screen object-cover' /></div>
 
             <nav className="absolute top-0 left-0 w-full flex items-center justify-center p-12 lg:px-8  text-green-700 text z-10 ">
 
