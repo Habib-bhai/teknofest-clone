@@ -1,3 +1,6 @@
+import Navbar from "./Navbar";
+
+<Navbar />
 import { NavLink } from "react-router-dom"
 
 function Footer() {
@@ -6,7 +9,7 @@ function Footer() {
             <div className="w-full mt-8 flex flex-col justify-center items-center bg-gradient-to-r from-[#333970] to-[#325632]">
                 <img src="/AMP.png" alt="logo" className="w-48 h-48 rounded-full mt-10" />
 
-                <h1 className="text-3xl font-bold text-center mt-6 text-white">Empowering innovation, igniting future leaders. Teknofest Pakistan – where technology meets limitless possibilities</h1>
+                <h1 className="text-3xl font-bold text-center mt-6 text-white">Empowering innovation, igniting future leaders. Teknofest Pakistan where technology meets limitless possibilities</h1>
 
                 <div className="flex justify-center items-center gap-3 mt-10">
 
@@ -36,6 +39,7 @@ function Footer() {
 
         </>
     )
+
 }
 
-export default Footer
+export default Footer;

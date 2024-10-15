@@ -1,7 +1,8 @@
 
+
 function CompetitionDetails() {
   return (
-    <div>CompetitionDetails</div>
+    <div></div>
   )
 }
 

@@ -1,6 +1,8 @@
+import Navbar from "../components/Navbar"
+
 function Competitions() {
   return (
-    <div>Competitions</div>
+    <div></div>
   )
 }
 
