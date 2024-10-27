@@ -1,22 +1,22 @@
 import HeroSection from "../components/HeroSection"
 import "../index.css"
-import { useEffect, useState } from "react"
+// import { useEffect, useState } from "react"
 
 function Home() {
 
 
-  let [height, setHeight] = useState(0)
-  let [width, setWidth] = useState(0)
+  // let [height, setHeight] = useState(0)
+  // let [width, setWidth] = useState(0)
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    setHeight(window.screen.height)
-    setWidth(window.screen.width)
-  }, [])
+  //   setHeight(window.screen.height)
+  //   setWidth(window.screen.width)
+  // }, [])
   return (
     <>
       {/* Hero Section */}
-      <div className="w-screen  h-[130vh] bg-[url('/bg.jpg')] bg-cover bg-no-repeat">
+      <div className=" w-screen  h-[130vh] bg-[url('/bg.jpg')] bg-cover bg-no-repeat">
         <div className="w-screen  h-[130vh] bg-zinc-800/75">
 
           <div className="w-full h-full flex flex-col md:flex-row justify-center items-center">
@@ -33,7 +33,7 @@ function Home() {
       </div>
 
       {/* Overview Section*/}
-      <div className="  flex flex-wrap md:flex-nowrap justify-center items-center relative ">
+      <div className="  flex flex-wrap  justify-center items-center relative ">
 
         <div className="flex flex-col items-start  px-10">
 
@@ -50,27 +50,15 @@ function Home() {
               <p className="text-[#707070] text-[14px]">Expo Center Karachi, Hall 3 & 4</p>
             </div>
           </div>
-        </div>
-
-        <div>
-
 
         </div>
 
-        <div className="w-full mt-10 md:mt-0 md:absolute md:top-6 md:right-[-380px] flex justify-center items-center  gap-3">
 
-          {height > 450 && width > 600 ? (
-            <>
-          <div className="md:flex md:flex-col md:justify-center md:items-center">
-            <img src="/img1.jpg" alt="image" className="h-96 w-96 md:h-32 md:w-32 rounded-2xl" />
-            <img src="/img2.png" alt="image " className="h-96 w-96 md:h-48 md:w-52 rounded-2xl mt-6" />
-          </div>
-            <img src="/img3.png" alt="image" className="h-96 w-96 md:h-44 md:w-44 rounded-2xl " />
-          </>) : <div className="flex flex-col justify-center items-center">
-            <img src="/img1.jpg" alt="image" className="h-96 w-96 md:h-32 md:w-32 rounded-2xl mb-7 md:mb-0" />
-            <img src="/img2.png" alt="image " className="h-96 w-96 md:h-48 md:w-52 rounded-2xl mt-6 mb-7 md:mb-0" />
-            <img src="/img3.png" alt="image" className="h-96 w-96 md:h-44 md:w-44 rounded-2xl " />
-          </div>}
+        <div className="w-full mt-10 md:mt-10  flex flex-wrap justify-center items-center  gap-3 px-5">
+          <img src="/img1.jpg" alt="image" className="w-full md:w-[250px] md:h-[200px] rounded-xl" />
+          <img src="/img2.png" alt="image" className="w-full md:w-[250px] md:h-[200px] rounded-xl" />
+          <img src="/img3.png" alt="image" className="w-full md:w-[250px] md:h-[200px] rounded-xl" />
+          
 
         </div>
 

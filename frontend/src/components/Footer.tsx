@@ -12,7 +12,7 @@ function Footer() {
 
                 <div className="md:px-40">
 
-                    <h1 className=" text-xl  font-semibold  text-center mt-6 text-white ">Empowering innovation, igniting future leaders. Teknofest Pakistan where technology meets limitless possibilities</h1>
+                    <h1 className=" text-xl    text-center mt-6 text-white ">Empowering innovation, igniting future leaders. Teknofest Pakistan where technology meets limitless possibilities</h1>
                 </div>
 
                 <div className="flex justify-center items-center gap-3 mt-10">
@@ -28,7 +28,7 @@ function Footer() {
 
                 <p className="h-[1px] bg-white/20  w-[50%] mt-10"></p>
 
-                <div className="flex flex-wrap justify-center items-center gap-8 mt-10 text-white text-xl font-semibold px-10 md:px-0">
+                <div className="flex flex-wrap justify-center items-center gap-8 mt-10 text-white text-xl  px-10 md:px-0">
                     <NavLink to={"/"} className={({ isActive }) => isActive ? "text-[#388636]" : ""}>Home</NavLink>
 
                     <NavLink to={"/about"} className={({ isActive }) => isActive ? "text-[#388636]" : ""}>About Us</NavLink>
@@ -38,9 +38,9 @@ function Footer() {
                     <NavLink to={"/contact"} className={({ isActive }) => isActive ? "text-[#388636]" : ""}>Contact Us</NavLink>
                 </div>
 
-                <h1 className="text-white mt-10 text-xl font-semibold px-6 md:px-0 text-center">Copyright ©2023 TeknoFest All Rights Reserved Copyright</h1>
+                <h1 className="text-white mt-12 text-lg px-6 md:px-0 text-center">Copyright ©2023 TeknoFest All Rights Reserved Copyright</h1>
 
-                <h1 className="text-white mt-10 text-xl font-semibold mb-10">Powerd By: <span className="text-[#388636]"> workup solutions</span></h1>
+                <h1 className="text-white mt-10 text-lg  mb-10">Powerd By: <span className="text-[#388636]"> workup solutions</span></h1>
 
             </div>
 

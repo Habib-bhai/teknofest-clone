@@ -6,21 +6,23 @@ import Competitions from "./pages/Competitions"
 import CompetitionDetails from "./pages/CompetitionDetails"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
+import Category from "./pages/Category"
 
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden ">
     <Navbar/>
      <Routes>
     <Route path="/*" element={<Home/>} />
     <Route path="/about*" element={<About/>} />
     <Route path="/contact" element={<Contact/>} />
     <Route path="/competitions" element={<Competitions/>} />
-    <Route path="/competitions:competitionDetails" element={<CompetitionDetails/>} />
+    <Route path="/category" element={<Category/>} />
+    <Route path="/competition-details" element={<CompetitionDetails/>} />
      </Routes>
 
      <Footer/> 
-    </>
+    </div>
   )
 }
 
