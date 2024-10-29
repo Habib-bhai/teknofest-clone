@@ -10,7 +10,7 @@ export default function Category() {
   return (
     <>
 
-    <h1 className=" mt-20 capitalize w-full text-center text-3xl text-[#3A4cB4] font-bold ">{objsToSend![0].category}</h1>
+    <h1 className=" mt-32 capitalize w-full text-center text-3xl text-[#3A4cB4] font-bold ">{objsToSend![0].category}</h1>
 
     <div className="mt-16 grid grid-cols-2 gap-2 md:gap-0 md:flex flex-wrap justify-center items-center ">
 

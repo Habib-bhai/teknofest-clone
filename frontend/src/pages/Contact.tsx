@@ -1,4 +1,3 @@
-import React from 'react';
 import img from '../../public/bg.jpg';
 export default function ContactPage() {
   return (
