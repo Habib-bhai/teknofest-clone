@@ -1,5 +1,6 @@
 function HeroSection() {
   return (
+    <div>
     <div className="w-[90vw] h-[120vh] flex flex-wrap md:flex-nowrap justify-center items-center">
         
             <img src="/website.gif" alt="gif" className="w-96 h-96 md:w-[543px] md:h-[679px]" />
@@ -26,10 +27,12 @@ function HeroSection() {
 
         </div>
 
-      
-
+     
     </div>
-  )
+   
+    </div>
+    
+  );
 }
 
-export default HeroSection
+export default HeroSection;
